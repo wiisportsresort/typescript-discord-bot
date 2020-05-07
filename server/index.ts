@@ -12,7 +12,7 @@ dotenv.config();
 export const client = new Discord.Client();
 
 export const guildPrefs = new Store<GuildPrefs>({
-  path: path.join(process.cwd(), 'data/guildPrefs.json'),
+  path: path.join(process.cwd(), 'data/guildprefs.json'),
   writeOnSet: true,
 });
 
