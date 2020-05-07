@@ -1,5 +1,5 @@
-# eat pant
-
+# typescipt-discord-bot
 
 ok
 we must typescript
+
