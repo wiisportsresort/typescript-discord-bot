@@ -1,5 +1,3 @@
 # typescipt-discord-bot
 
-ok
-we must typescript
-
+template for discord.js bot with webpack, typescript, and more
