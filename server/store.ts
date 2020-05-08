@@ -16,8 +16,8 @@ export class Store<T> {
 
   constructor({ path, writeOnSet }: StoreOptions) {
     this.events = new EventEmitter();
-    this.map = this.readFile();
     this.path = path;
+    this.map = this.readFile();
     if (writeOnSet) {
       this.events.addListener('set', () => {
         this.writeFile();
